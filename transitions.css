@@ -47,9 +47,18 @@ main {
     padding: 0.5rem;
 }
 
+
+/* Applying transition property(change border color) to avatar icons when hover them. To highlight these elements. */
+
 .avatar img {
     border: 0.25rem solid hsl(80deg, 50%, 70%);
     border-radius: 50%;
+    transition: 500ms ease-in-out 250ms;
+    transition-property: border-color;
+}
+
+.avatar img:hover {
+    border-color: hsl(80deg, 20%, 90%);
 }
 
 .contact {
@@ -60,7 +69,7 @@ main {
 
 .email,
 .cell {
-    transition: transform 500ms ease-in-out;
+    transition: transform 500ms ease-out;
 }
 
 .email:hover,
