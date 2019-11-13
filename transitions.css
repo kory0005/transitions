@@ -100,9 +100,9 @@ main {
     width: 30px;
     height: 30px;
     line-height: 30px;
-    transition: transform 500ms ease-in-out;
+    transition: transform 500ms ease-in;
 }
 
 .icon-wrapper:hover {
-    transform: scale(1.5);
+    transform: scale(1.5) rotate(360deg);
 }
