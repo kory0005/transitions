@@ -88,7 +88,7 @@ main {
 }
 
 
-/* Adding transitions property to the social media icons for emphasizing purpose  */
+/* Adding transitions property(scale them) to the social media icons. To show the importance of these elements  */
 
 .icon-wrapper {
     display: inline-block;
